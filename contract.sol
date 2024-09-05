@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 contract ToBinary{
 
-		function toBinary(int256 n) public pure returns (string memory) {
+	function toBinary(int256 n) public pure returns (string memory) {
             bytes memory binary = new bytes(8);
             uint256 value;
 
